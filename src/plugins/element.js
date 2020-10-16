@@ -1,4 +1,6 @@
 import Vue from 'vue'
-import { Button } from 'element-ui'
+import Element from 'element-ui'
 
-Vue.use(Button)
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(Element)
